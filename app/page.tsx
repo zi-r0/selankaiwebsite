@@ -57,9 +57,9 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12">Projects Done</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { title: "Project Alpha", desc: "A comprehensive e-commerce platform built for scale." },
-              { title: "DataFlow", desc: "Real-time analytics dashboard for fintech institutions." },
-              { title: "EcoApp", desc: "Mobile application promoting sustainable living habits." }
+              { title: "Unique ID for some dumahh place", desc: "A comprehensive identification system built for scale." },
+              { title: "Medapp", desc: "Matching Docs with weakass patients" },
+              { title: "Taxibot", desc: "Chat and voice bot for the dumbest taxi app users" }
             ].map((project, idx) => (
               <div key={idx} className="p-6 border border-gray-100 rounded-xl shadow-sm hover:shadow-md transition">
                 <Code className="w-10 h-10 text-blue-600 mb-4" />
@@ -77,10 +77,10 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-12">Meet the Team</h2>
           <div className="grid md:grid-cols-4 gap-8">
             {[
-              { name: "Jane Doe", role: "CEO & Founder" },
-              { name: "John Smith", role: "CTO" },
-              { name: "Alice Johnson", role: "Lead Designer" },
-              { name: "Bob Williams", role: "Senior Developer" }
+              { name: "Raja Ramesh Dumahh", role: "CEO & Founder" },
+              { name: "Avik Marlboro Mallik", role: "CTO" },
+              { name: "Edwin Mathews", role: "Lead Designer" },
+              { name: "Rajeev", role: "Senior Developer" }
             ].map((member, idx) => (
               <div key={idx} className="bg-white p-6 rounded-xl shadow-sm">
                 <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
@@ -103,7 +103,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="flex flex-col items-center">
               <Mail className="w-8 h-8 text-blue-500 mb-3" />
-              <span>hello@companyco.com</span>
+              <span>rajaramesh@voicemail.com</span>
             </div>
             <div className="flex flex-col items-center">
               <Phone className="w-8 h-8 text-blue-500 mb-3" />
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-center">
               <MapPin className="w-8 h-8 text-blue-500 mb-3" />
-              <span>123 Tech Lane, NY 10001</span>
+              <span>somewhere in nagercoil</span>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-gray-950 py-6 text-center text-gray-500 text-sm">
-        <p>&copy; {new Date().getFullYear()} CompanyCo. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} SELANK AI. All rights reserved.</p>
       </footer>
 
     </div>
