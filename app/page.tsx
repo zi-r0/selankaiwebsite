@@ -39,7 +39,7 @@ export default function Home() {
           <div>
             <h2 className="text-3xl font-bold mb-6">About Us</h2>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              Founded in 2020, CompanyCo is dedicated to pushing the boundaries of what's possible in tech. We believe in lean development, transparent communication, and shipping products that matter.
+              Founded in 2025 by a bunch of unemployed peeps, SelankAI is dedicated to pushing the boundaries of what's possible in tech. We believe in lean development, transparent communication, and shipping products that matter.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Our mission is simple: simplify the complex. Whether it's enterprise software or consumer applications, we bring expertise and passion to every line of code.
